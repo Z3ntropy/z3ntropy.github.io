@@ -1,20 +1,20 @@
 # Testing Prompt Engineering vs Fine-tuning for Anapestic Verse Generation
 
 ## Experiment Overview
-This study compares two approaches to improving anapestic verse generation in large language models: prompt engineering and fine-tuning. The experiment uses three conditions: base model, prompt-engineered, and fine-tuned, all tested with identical evaluation criteria.
+This study compares two approaches to improving anapestic verse generation in large language models: prompt engineering and fine-tuning. The experiment uses three conditions: base model, fine-tuned, and prompt-engineered, all tested with identical evaluation criteria.
 
 ## Methodology
 
 ### Model Specifications
-- Base Model: Claude-3 
+- Base Model: Gemma2-9B 
 - Fine-tuning Dataset: 1000 examples of anapestic verse from classical and contemporary sources
 - Training Parameters: Learning rate 1e-5, 3 epochs, batch size 8
 
 ### Prompt Design Method
 The lyrical prompt design consists of three components:
 1. Structural Template: "Write a verse in anapestic meter (da-da-DUM, da-da-DUM)"
-2. Example Demonstration: One clear example of anapestic meter
-3. Constraint Specification: "Maintain strict anapestic meter throughout"
+2. Constraint Specification: "Maintain consistent relative anapestic meter throughout"
+3. Example Demonstration: One clear example of anapestic meter with context objective preserved
 
 ### Test Cases
 Each condition will be tested with 100 different prompts, varying in:
