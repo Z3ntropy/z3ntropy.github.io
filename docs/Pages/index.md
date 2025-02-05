@@ -5,11 +5,13 @@ layout: default
 
 # The Stochastic Parrot
 
-This is where you'll find all the information about my projects and ideas. Think of this as like having an overly talkative parrot guiding you through a digital garden overgrown with interesting (stochastically, speaking) ideas and concepts.
+This is where you'll find all the information about my projects and ideas. Think of it like having an overly verbose parrot guiding you through a digital garden overgrown with some of my more interesting (stochastically, speaking) ideas and concepts.
 
 ![Stochastic Parrot Logo](../assets/images/Stochastic-Parrot-Logo-1x1.png)
 
+<!-- Absolute path reference:
 ![Stochastic Parrot Logo](C:\Users\Chris\Documents\GitHub\z3ntropy.github.io\docs\assets\images\Stochastic-Parrot-Logo-1x1.png)
+-->
 
 What is a Stochastic Parrot? 
 
